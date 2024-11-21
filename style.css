@@ -1,0 +1,374 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  .container{
+    margin-top: 6rem;
+    padding-left: 182px;
+    /* background-color: #005a4e; */
+  }
+  
+  h5 {
+    font-size: 1rem;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+  }
+  
+  #submitButton {
+      background-color:rgba(1, 129, 140, 1);
+      height: 51px;
+      width: 138px;
+      border: none;
+      color: #fff;
+      font-weight:500;
+      border-radius: 5px; 
+      font-size: 1rem; 
+      text-align: center; 
+      margin: 0 auto; 
+  }
+  
+  #submitButton:hover {
+    background-color: #166259;
+  }
+  
+  .form-check {
+    margin-bottom: 3rem; 
+  }
+  
+  .form-select {
+    border: 1px solid #ced4da;
+    color: #4a4a4a;
+    margin-bottom: 3rem; 
+  }
+  
+  .form-check-label {
+    color:rgba(69, 90, 100, 1);
+    margin-left: 8px; 
+  }
+  
+  .first{
+    color: rgba(69, 90, 100, 1);
+    margin-bottom: 5rem;
+  }
+  .form-check-input:checked + .form-check-label {
+    color:rgba(1, 129, 140, 1);
+  }
+  #dropdown  {
+    color:rgba(1, 129, 140, 1);
+    border-width: 2px;
+    width: auto;
+    height: 42px;
+    border-radius: 10px;
+  }
+
+.accordion{
+  margin-top: 8rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.accordion-item{
+  background: rgb(25, 34, 40) ;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 701.61px;
+border-radius: 6px 0px 0px 0px;
+}
+.accordion-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  
+}
+
+.containerr {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.cardss {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.cardd {
+  background-color: white;
+  border: 1px solid #140404;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.carddd{
+  padding: 20px;
+}
+
+.cardd:hover {
+  transform: scale(1.05);
+}
+
+.cardd h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.cardd p {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.new-price {
+  color: #007bff;
+  font-weight: bold;
+}
+
+button {
+  color: white;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin-top: auto;
+}
+.cardd:nth-child(1) button {
+  background-color: rgba(244, 251, 255, 1);
+}
+
+.cardd:nth-child(1):hover button {
+  background-color: #084298;
+}
+
+.cardd:nth-child(2) button {
+  background-color: #20c997;
+}
+
+.cardd:nth-child(2):hover button {
+  background-color: #198754;
+}
+
+.cardd:nth-child(3) button {
+  background-color: #b45865;
+}
+
+.cardd:nth-child(3):hover button {
+  background-color: #7a3744;
+}
+.inside-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.clickk{
+  width:100%;
+  margin-bottom: 0;
+  background-color: #140404;
+}
+
+.carousel_card{
+  width: 100%;
+  height: 500px;
+  background: #EBF7FC;
+  
+}
+
+.carousel_card_element{
+  width: 700px;
+  height: 300px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  padding: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  h1{
+      font-weight: 700;
+      font-size: 22px;
+  }
+  p{
+      text-align: justify;
+  }
+}
+.carousel{
+  gap: 1rem;
+}
+.img1{
+  position: absolute;
+  left: 7%;
+  top: 10%;
+}
+.img2{
+  position: absolute;
+  right: 7%;
+  bottom: 10%;
+}
+.slider_btn{
+  margin-top: 1rem;
+  background: rgba(4, 57, 83, 1);
+  position: absolute;
+left: 45%;
+  width:165px;
+height: 54px;
+padding: 13px 18px 13px 18px;
+gap: 10px;
+border-radius: 4px 0px 0px 0px;
+}
+
+.bbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EBF7FC;
+  height: 8rem;
+  border-radius: 20px;
+}
+.logoo{
+  background-color: rgba(4, 57, 83, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+
+}
+
+.carousel_button_design{
+  background: #000;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.indicator_design{
+  gap: 2rem !important;
+  width: 15px !important;
+  height: 5px !important;
+  border-radius: 100%;
+  background: #5B607C80 !important;
+}
+
+.indicator_design.active{
+  background: #043953 !important;
+
+}
+
+@media (min-width: 490px) and (max-width:549px) {
+  .carousel_card_element{
+      width: 350px;
+      height: 350px;}
+  }      
+@media (min-width: 550px) and (max-width:674px) {
+  .carousel_card_element{
+      width: 400px;
+      height: 250px;}
+  }      
+  @media (min-width: 675px) and (max-width: 800px) {
+      .carousel_card_element{
+          width: 500px;
+          height: 250px;}
+    }
+
+@media (min-width: 801px) and (max-width: 1049px) {
+  .carousel_card_element{
+      width: 600px;
+      height: 250px;}
+}       
+
+@media (max-width: 430px) {
+  /* Stack cards in a single column */
+  .container{
+    margin-top: 6rem;
+    padding-left: 2rem !important;
+    /* background-color: #005a4e; */
+  }
+  .cardss {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 20px;           
+  }
+
+  .cardd {
+    width: 90%;            
+  }
+
+  .accordion {
+    gap: 1rem;              
+  }
+
+  .accordion-item {
+    width: 90%;             
+  }
+
+  
+  .carousel_card_element {
+    width: 90%;             
+    padding: 1rem;          
+  }
+
+  .carousel_card_element h1 {
+    font-size: 18px;        
+  }
+
+  .carousel_card_element p {
+    font-size: 14px;        
+    text-align: center;     
+  }
+
+  button {
+    font-size: 14px;        
+    padding: 10px;          
+  }
+
+  .slider_btn {
+    width: 140px;          
+    height: 44px;
+  }
+  .logoo {
+    height: 15rem;          
+  }
+
+  .indicator_design {
+    width: 10px !important;
+    height: 4px !important;
+  }
+
+  .indicator_design.active {
+    background: #043953 !important;
+  }
+}
